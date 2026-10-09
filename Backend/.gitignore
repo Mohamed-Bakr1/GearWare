@@ -1,17 +1,32 @@
-/bin/
-/obj/
-/.vs/
-*.vsidx
-*.db
-*.exe
-*.dll
-*.suo
+# Build results
+bin/
+obj/
+Debug/
+Release/
+
+# Visual Studio files
+.vs/
 *.user
+*.suo
 *.userosscache
 *.sln.docstates
-*.vcxproj.user
-*.dbmdl
-*.bak
-*.backup.json
-*.swp
-*.DS_Store
+
+# NuGet
+*.nupkg
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+# Optional if you restore packages locally:
+packages/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# IDE
+.idea/
+*.vscode/
